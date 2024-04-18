@@ -13,15 +13,19 @@ const showQuantity = () => {
 };
 
 const addCartByOne = ()=>{
-    cartQuantity = cartQuantity + 1;
+    // cartQuantity = cartQuantity + 1;
+    cartQuantity += 1
+    // cartQuantity++
     console.log(`Cart Quantity : ${cartQuantity}`);
 }
 const addCartByTwo = ()=>{
-    cartQuantity = cartQuantity + 2;
+    // cartQuantity = cartQuantity + 2;
+      cartQuantity += 2;
     console.log(`Cart Quantity : ${cartQuantity}`);
 }
 const addCartByThree = ()=>{
-    cartQuantity = cartQuantity + 3;
+    // cartQuantity = cartQuantity + 3;
+      cartQuantity += 3;
     console.log(`Cart Quantity : ${cartQuantity}`);
 }
 const resetCart = ()=>{
